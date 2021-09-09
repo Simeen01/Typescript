@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bill Spilt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        𝕭𝖎𝖑𝖑 𝕾𝖕𝖑𝖎𝖙
+    </div>
+    <h1><center><div id="welcome"></div></center></h1>&nbsp;
+    <div class="container">
+    <form>
+        <div>
+        <label id="totalL" for="description">Decription</label><br>
+        <input type="text" id="description" name="desc" placeholder="Write the Purpose">
+
+        <label id="totalL" for="no_of_people">How many people?</label>
+        <input type="number" id="no_of_people" name="no_of_poeple" placeholder="Total no. of people">
+  
+        <label id="totalL" for="total">How much?</label>
+        <input type="number" id="total" name="amount" placeholder="Total amount">
+    
+        <!-- way of splitting -->
+            <label for="splitWay">Way of splitting:</label>
+            <div>
+                <br>
+                <input id=radio type="radio" id="splitWay" value="equally">
+                <label id=radio for="equally">Equally Split</label><br><br>
+            </div>
+            <!-- <p>If splitting unequally click below:</p><label id="tipL"><button id="uneq_btn" onclick="modal()">Unequally (as per shares)</button></label>
+            <br><br> -->
+        </div>
+
+        <div class="buttonSpace">
+          <button type='submit' id="splitBtn">Split!</button>
+          <button type="reset" id="resetBtn">Reset</button> 
+        </div>
+      </form>
+      </div>
+  </div>
+
+    <script src="split.js"></script>
+    
+</body>
+</html>

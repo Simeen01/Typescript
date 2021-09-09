@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000000;
+}
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background-image: url('bg.jpg');
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color:rgb(246, 246, 246);
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin: 0 auto;
+  border: 5px double #2E3F51;
+  width: 40%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+label {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+input {
+  margin: .8rem 2rem 2rem 0;
+  display: block;
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 75%;
+}
+input::placeholder {
+  color: #c1c1c1;
+}
+input:focus {
+  outline:none;
+}
+
+#radio {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 0;
+  display:initial;
+  border-bottom:none;
+  width:5%
+}
+
+.buttonSpace {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.buttonSpace button {
+  margin-top: .6rem;
+  border-radius: 10px;
+  display: inline-block;
+  padding: .6rem;
+  /* padding: .5rem 5rem; */
+  font-family: Georgia;
+  font-size: 1.2rem;
+}
+
+#uneq_btn {
+    border: none;
+    background-color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #789133;
+    font-family: 'Lora', serif;
+  }
+
+#uneq_btn:hover {
+    color: #2E3F51;
+}
+
+#splitBtn {
+  transition: .3s;
+  background-color: #070707e5;
+  color: #fff;
+  cursor: pointer;
+}
+#splitBtn:hover {
+  border: 1px solid #b2bd53;
+  background-color: #fff;
+  letter-spacing: .4rem;
+  color: #2E3F51;
+}
+#resetBtn {
+  background-color: #2E3F51;
+  color: white;
+  cursor: pointer;
+}
+#perPerson {
+  padding-top: 1.5rem;
+  font-family: 'Barriecito', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  color: #525f23;
+}
